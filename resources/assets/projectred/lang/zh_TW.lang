@@ -1,24 +1,24 @@
 itemGroup.core=紅石計劃:核心
 
-item.projectred.core.part.partplate.name=電路板
-item.projectred.core.part.partconductiveplate.name=導電板
-item.projectred.core.part.partwiredplate.name=線路板
-item.projectred.core.part.partbundledplate.name=集束板
-item.projectred.core.part.partanode.name=陽極
-item.projectred.core.part.partcathode.name=陰極
-item.projectred.core.part.partpointer.name=指針
-item.projectred.core.part.partsiliconchip.name=矽晶片
-item.projectred.core.part.partenergizedsiliconchip.name=充能矽晶片
-item.projectred.core.part.partplatformedplate.name=底板
-item.projectred.core.part.partredingot.name=紅石合金錠
-item.projectred.core.part.partboule.name=矽晶錠
-item.projectred.core.part.partsilicon.name=矽
-item.projectred.core.part.partinfusedsilicon.name=浸漬矽
-item.projectred.core.part.partenergizedsilicon.name=充能矽
-item.projectred.core.part.partmotor.name=馬達
-item.projectred.core.part.partcoppercoil.name=銅質線圈
-item.projectred.core.part.partironcoil.name=鐵質線圈
-item.projectred.core.part.partgoldcoil.name=金質線圈
+item.projectred.core.part.plate.name=電路板
+item.projectred.core.part.conductive_plate.name=導電板
+item.projectred.core.part.wired_plate.name=線路板
+item.projectred.core.part.bundled_plate.name=集束板
+item.projectred.core.part.anode.name=陽極
+item.projectred.core.part.cathode.name=陰極
+item.projectred.core.part.pointer.name=指針
+item.projectred.core.part.silicon_chip.name=矽晶片
+item.projectred.core.part.energized_silicon_chip.name=充能矽晶片
+item.projectred.core.part.platformed_plate.name=底板
+item.projectred.core.part.red_ingot.name=紅石合金錠
+item.projectred.core.part.boule.name=矽晶錠
+item.projectred.core.part.silicon.name=矽
+item.projectred.core.part.infused_silicon.name=浸漬矽
+item.projectred.core.part.energized_silicon.name=充能矽
+item.projectred.core.part.motor.name=馬達
+item.projectred.core.part.copper_coil.name=銅質線圈
+item.projectred.core.part.iron_coil.name=鐵質線圈
+item.projectred.core.part.gold_coil.name=金質線圈
 
 item.projectred.core.part.illumar0.name=白色螢光粉
 item.projectred.core.part.illumar1.name=橘色螢光粉
@@ -37,28 +37,36 @@ item.projectred.core.part.illumar13.name=綠色螢光粉
 item.projectred.core.part.illumar14.name=紅色螢光粉
 item.projectred.core.part.illumar15.name=黑色螢光粉
 
-item.projectred.core.part.partcloth.name=平織布
-item.projectred.core.part.partsail.name=帆
+item.projectred.core.part.cloth.name=平織布
+item.projectred.core.part.sail.name=帆
 item.projectred.core.part.gemruby.name=紅寶石
 item.projectred.core.part.gemsapphire.name=藍寶石
 item.projectred.core.part.gemperidot.name=橄欖石
-item.projectred.core.part.partredironcomp.name=紅鐵混合物
-item.projectred.core.part.partsandcoalcomp.name=沙煤混合物
-item.projectred.core.part.partredsiliconcomp.name=紅矽混合物
-item.projectred.core.part.partglowsiliconcomp.name=螢矽混合物
+item.projectred.core.part.red_iron_comp.name=紅鐵混合物
+item.projectred.core.part.sand_coal_comp.name=沙煤混合物
+item.projectred.core.part.red_silicon_comp.name=紅矽混合物
+item.projectred.core.part.glow_silicon_comp.name=螢矽混合物
 
-item.projectred.core.part.nullchip.name=空邏輯路由晶片
-item.projectred.core.part.nullupgrd.name=空邏輯升級晶片
+item.projectred.core.part.null_chip.name=空邏輯路由晶片
+item.projectred.core.part.null_upgrd.name=空邏輯升級晶片
 item.projectred.core.part.upgrd_lx.name=左型X升級
 item.projectred.core.part.upgrd_ly.name=左型Y升級
 item.projectred.core.part.upgrd_lz.name=左型Z升級
 item.projectred.core.part.upgrd_rx.name=右型X升級
 item.projectred.core.part.upgrd_ry.name=右型Y升級
 item.projectred.core.part.upgrd_rz.name=右型Z升級
+item.projectred.core.part.copper_ingot.name=銅錠
+item.projectred.core.part.tin_ingot.name=錫錠
+item.projectred.core.part.silver_ingot.name=銀錠
+item.projectred.core.part.electrotine_ingot.name=電光錠
+item.projectred.core.part.electrotine_dust.name=電光粉
+item.projectred.core.part.electrotine_iron_comp.name=電鐵混合物
+item.projectred.core.part.electrotine_silicon_comp.name=電矽混合物
+item.projectred.core.part.electro_silicon.name=電光矽
 
 
 item.projectred.core.drawplate.name=起模板
-item.projectred.core.wiredebugger.name=線路除錯器
+item.projectred.core.wiredebugger.name=萬用表
 item.projectred.core.screwdriver.name=螺絲刀
 item.projectred.core.routerutil.name=路由器工具
 item.projectred.core.datacard.name=資料卡
@@ -67,9 +75,18 @@ item.projectred.core.datacard.name=資料卡
 
 
 itemGroup.expansion=紅石計劃:擴展
+item.projectred.expansion.emptybattery.name=電池(空)
+item.projectred.expansion.battery.name=電池
+tile.projectred.expansion.machine1|0.name=感應爐
+tile.projectred.expansion.machine1|1.name=發電機
 tile.projectred.expansion.machine2|0.name=方塊破壞機
 tile.projectred.expansion.machine2|1.name=物品輸入機
 tile.projectred.expansion.machine2|2.name=放置機
+tile.projectred.expansion.machine2|3.name=篩選輸入機
+tile.projectred.expansion.machine2|4.name=點火器
+tile.projectred.expansion.machine2|5.name=電池箱
+item.projectred.expansion.solar_panel.name=太陽能板
+
 
 
 itemGroup.transport=紅石計劃:運輸
@@ -101,6 +118,10 @@ itemGroup.exploration=紅石計劃:探勘
 tile.projectred.exploration.ore|0.name=紅寶石礦
 tile.projectred.exploration.ore|1.name=藍寶石礦
 tile.projectred.exploration.ore|2.name=橄欖石礦
+tile.projectred.exploration.ore|3.name=銅礦
+tile.projectred.exploration.ore|4.name=錫礦
+tile.projectred.exploration.ore|5.name=銀礦
+tile.projectred.exploration.ore|6.name=Electrotine Ore
 tile.projectred.exploration.stone|0.name=大理石
 tile.projectred.exploration.stone|1.name=大理石磚
 tile.projectred.exploration.stone|2.name=玄武岩鵝卵石
@@ -109,6 +130,10 @@ tile.projectred.exploration.stone|4.name=玄武岩磚
 tile.projectred.exploration.stone|5.name=紅寶石磚
 tile.projectred.exploration.stone|6.name=藍寶石磚
 tile.projectred.exploration.stone|7.name=橄欖石磚
+tile.projectred.exploration.stone|8.name=銅磚
+tile.projectred.exploration.stone|9.name=錫磚
+tile.projectred.exploration.stone|10.name=銀磚
+tile.projectred.exploration.stone|11.name=電光磚
 item.projectred.exploration.woolgin.name=軋線器
 item.projectred.exploration.backpack|0.name=白色背包
 item.projectred.exploration.backpack|1.name=橘色背包
@@ -177,6 +202,10 @@ tile.projectred.exploration.stonewalls|4.name=玄武岩磚牆
 tile.projectred.exploration.stonewalls|5.name=紅寶石牆
 tile.projectred.exploration.stonewalls|6.name=藍寶石牆
 tile.projectred.exploration.stonewalls|7.name=橄欖石牆
+tile.projectred.exploration.stonewalls|8.name=銅牆
+tile.projectred.exploration.stonewalls|9.name=錫牆
+tile.projectred.exploration.stonewalls|10.name=銀牆
+tile.projectred.exploration.stonewalls|11.name=電光牆
 tile.projectred.exploration.lily|0.name=突變百合
 item.projectred.exploration.lilyseed|0.name=白色突變百合種子
 item.projectred.exploration.lilyseed|1.name=橘色突變百合種子
@@ -430,9 +459,9 @@ item.projectred.integration.gate|27.name=及單元
 item.projectred.integration.gate|28.name=匯流排隨機信號產生器
 item.projectred.integration.gate|29.name=匯流排轉換器
 item.projectred.integration.gate|30.name=匯流排輸入面板
-item.projectred.integration.gate|31.name=Stacking Latch
-item.projectred.integration.gate|32.name=Segment Display Gate
-item.projectred.integration.gate|33.name=Decoding Randomizer
+item.projectred.integration.gate|31.name=堆疊鎖存器
+item.projectred.integration.gate|32.name=多段顯示器閘
+item.projectred.integration.gate|33.name=隨機解碼器
 
 
 
@@ -472,7 +501,7 @@ item.projectred.transmission.wire|30.name=棕色集束線纜
 item.projectred.transmission.wire|31.name=綠色集束線纜
 item.projectred.transmission.wire|32.name=紅色集束線纜
 item.projectred.transmission.wire|33.name=黑色集束線纜
-item.projectred.transmission.wire|34.name=100V電源線
+item.projectred.transmission.wire|34.name=低負載電源線
 item.projectred.transmission.framewire|0.name=框架紅色合金線
 item.projectred.transmission.framewire|1.name=框架白色絕緣導線
 item.projectred.transmission.framewire|2.name=框架橘色絕緣導線
@@ -491,7 +520,7 @@ item.projectred.transmission.framewire|14.name=框架綠色絕緣導線
 item.projectred.transmission.framewire|15.name=框架紅色絕緣導線
 item.projectred.transmission.framewire|16.name=框架黑色絕緣導線
 item.projectred.transmission.framewire|17.name=框架集束線纜
-item.projectred.transmission.framewire|34.name=框架100V電源線
+item.projectred.transmission.framewire|34.name=框架低負載電源線
 
 
 
